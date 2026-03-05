@@ -11,7 +11,11 @@
     <meta name="author" content="Fernanda Sanchez Madrigal">
     <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
 </head>
-<body>
+<body>Para publicar un sitio web en GitHub, primero creas un repositorio
+y subes tus archivos, especialmente el index.html.
+Después activas GitHub Pages en la configuración,
+eliges la rama principal (main) y GitHub genera un
+enlace donde tu página ya queda publicada en internet.
 
     
 </body>
