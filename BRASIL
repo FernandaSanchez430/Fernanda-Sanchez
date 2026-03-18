@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasil</title>
+
+    <style>
+        /* CONFIGURACIÓN DEL FONDO Y CENTRADO GENERAL */
+        body {
+            background-color: #e8f5e9; /* Fondo verde menta liso */
+            font-family: Georgia, 'Times New Roman', Times, serif
+            padding: 40px;
+            color: #333;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centra todo horizontalmente */
+            text-align: center;  /* Centra el texto */
+            font-size: 20px;
+        }
+
+        /* TÍTULOS */
+        h1 {
+            color: #009739; /* Verde Brasil */
+            border-bottom: 3px solid #FFDF00; /* Amarillo Brasil */
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            width: fit-content;
+            font-size: 60px;
+        }
+
+        h2 {
+            color: #002776; /* Azul Brasil */
+            margin-top: 40px;
+            font-size: 40px;
+        }
+
+        /* PÁRRAFOS */
+        p {
+            line-height: 1.6;
+            max-width: 800px; /* Para que no se estire de más el texto */
+            margin-bottom: 15px;
+        }
+
+        /* LISTAS (Centradas como bloque pero alineadas a la izquierda) */
+        ul, ol {
+            display: inline-block;
+            text-align: left;
+            margin-bottom: 20px;
+            
+            padding: 20px 40px;
+            border-radius: 10px;
+        }
+
+        /* GALERÍA DE IMÁGENES */
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+            width: 100%;
+        }
+
+        .galeria img {
+            border: 6px solid #FFDF00;
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+            width: 280px;    /* Todas del mismo ancho */
+            height: 200px;   /* Todas del mismo alto */
+            object-fit: cover; /* Para que no se deformen */
+        }
+
+        /* MULTIMEDIA (VIDEOS E IFRAMES) */
+        video, iframe {
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            max-width: 100%;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+            border: none;
+        }
+
+        /* ENLACES */
+        a {
+            color: #3063c9;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #009739;
+            text-decoration: underline;
+        }
+
+        hr {
+            width: 60%;
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Brasil: El Gigante de Sudamérica</h1>
+
+    <p>Brasil es un país que se encuentra en América del Sur y es el más grande de ese continente. Su capital es Brasilia y el idioma oficial es el portugués.</p>
+    <p>Tiene más de 200 millones de habitantes y es conocido por su cultura, su naturaleza y su historia vibrante que cautiva a todo el mundo.</p>
+    <p>Es un destino único que combina modernidad con tradiciones ancestrales, siendo una de las economías más importantes de la región.</p>
+
+    <h2>Cultura y Tradiciones</h2>
+    <p>Brasil es muy conocido por sus fiestas, su música y su baile. Una de las celebraciones más famosas es el Carnaval de Río de Janeiro.</p>
+    
+    <ul>
+        <li>Música y baile como la samba</li>
+        <li>El Carnaval de Río de Janeiro</li>
+        <li>Trajes coloridos y desfiles</li>
+        <li>Mucha diversidad cultural</li>
+    </ul>
+
+    <h2>Naturaleza Impresionante</h2>
+    <p>Brasil tiene una gran diversidad de paisajes y animales. Gran parte de la selva amazónica se encuentra en este país.</p>
+    
+    <ul>
+        <li>Selva Amazónica</li>
+        <li>Gran variedad de animales y plantas</li>
+        <li>Ríos muy grandes como el Amazonas</li>
+    </ul>
+
+    <div class="galeria">
+        <img src="imagen1.jpg" alt="Río de Janeiro">
+        <img src="imagen2.jpg" alt="Amazonas">
+        <img src="imagen3.jpg" alt="Comida Brasil">
+    </div>
+
+    <h2>Gastronomía y Deportes</h2>
+    <p>La gastronomía de Brasil es muy variada y tiene muchos platillos tradicionales.</p>
+    <ol>
+        <li>Feijoada</li>
+        <li>Pão de queijo</li>
+        <li>Brigadeiro</li>
+    </ol>
+
+    <p>El deporte más popular es el fútbol, reconocido mundialmente por sus campeonatos.</p>
+    <ol>
+        <li>El fútbol es el deporte nacional.</li>
+        <li>Ha ganado cinco Copas del Mundo.</li>
+        <li>Tierra de jugadores legendarios como Pelé.</li>
+    </ol>
+
+    <h2>Contenido</h2>
+    
+    <p>Video:</p>
+    <video width="560" height="315" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <p>Conoce Brasil:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zO-S_N3X618" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <hr>
+    
+    <h2>Enlaces</h2>
+    <p><a href="https://es.wikipedia.org/wiki/Brasil" target="_blank">Más información sobre Brasil</a></p>
+
+</body>
+</html>
